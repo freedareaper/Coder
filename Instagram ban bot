@@ -1,0 +1,45 @@
+echo "# Coder" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/freedareaper/Coder.git
+git push -u origin main|"
+36	echo -e " $Green     ||             $Purple==>$Yellow[1️⃣] Start Report Bot$Green                      ||"
+…	
+47	    read ch
+48	   if [ $ch -eq 1 ];then
+49	        cd $HOME
+50	        cd InstaReport
+51	        python ReportBot.py`cd instareport`
+45	* `pip install -r requirements.txt`
+46	* `chmod +x *`
+47	* `bash setup.sh` OR `python ReportBot.py`
+…	
+54	* `pip install -r requirements.txt`
+55	* `python ReportBot.py`
+from libs .animation import colorText #line:7
+7	from libs .animation import starting_bot #line:8
+8	from libs .animation import load_animation #line:9
+…	
+150	        O00OO00O0OOO00O00 =print ('''
+151	        [1] Start Report Bot
+152	        [2] Help
+153	        [3] About
+154	        [4] Exit.      
+
+55	        [ ✔️ ] Connection error occurred (FormRequestsError) = Error while loading report page
+56	yo 
+57	        ''')
+58	
+59	        help_msg()
+60	
+61	    elif (int(que_ans) == 2):
+…	
+130	        webbrowser.open('http://t.me/TeamDarkAnon')
+131	
+132	    elif(int(que_ans)==4):
+133	
+134	        clearConsole()
+135	
+136	        os.system('python ReportBot.py' if os.name == 'nt' else 'bash run.sh')
